@@ -186,7 +186,8 @@
             handlePidUpdate(data) {
                 if (data.success) {
                     if (this.chartData.memory[this.chartData.memory.length - 1] === data.process.rss &&
-                        this.chartData.memory[this.chartData.memory.length - 2] === data.process.rss) {
+                        this.chartData.memory[this.chartData.memory.length - 2] === data.process.rss &&
+                        false) {
                         // memory consumption didn't changed.
                         // do not draw extra point - just adjust timestamp
                         this.chartData.timestamps[this.chartData.timestamps.length - 1] = (new Date).toLocaleTimeString();
