@@ -259,20 +259,20 @@
         left: 50vw;
         margin-top: 20vh;
         padding-left: 5vw;
-        width: 50vw;
-        max-width: 50vw;
-        height: 100vh;
-        max-height: 100vh;
+        width: 40vw;
+        max-width: 45vw;
+        height: 80vh;
+        max-height: 80vh;
     }
 
     .chart-full {
         position: absolute;
         margin-top: 20vh;
         padding-left: 5vw;
-        width: 100vw;
-        max-width: 100vw;
-        height: 100vh;
-        max-height: 100vh;
+        width: 90vw;
+        max-width: 95vw;
+        height: 80vh;
+        max-height: 80vh;
     }
 
     .processes {
